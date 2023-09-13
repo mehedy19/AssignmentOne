@@ -1,5 +1,10 @@
 
-    <h1>Comparison Tool</h1>
+<div class="card">
+  <div class="card-header">
+  <h2> <?php echo "Comparison Tool"; ?> </h2> 
+  </div>
+  <div class="card-body">  
+    
     <form method="post">
         <label for="num1">Enter the first number:</label>
         <input type="number" name="num1" required><br>
@@ -30,3 +35,5 @@
         }
     }
     ?>
+  </div>
+</div>

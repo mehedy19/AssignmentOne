@@ -1,5 +1,8 @@
-
-    <h2>Simple Calculator</h2>
+<div class="card">
+  <div class="card-header">
+  <h2> <?php echo "Simple Calculator"; ?> </h2> 
+  </div>
+  <div class="card-body">
     <form method="post">
         <label for="num1">Enter the first number:</label>
         <input type="number" name="num1" required><br>
@@ -14,6 +17,7 @@
         <input type="number" name="num2" required><br>
         <input type="submit" value="Calculate">
     </form>
+
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (isset($_POST["num1"]) && isset($_POST["num2"]) && isset($_POST["operation"]) && !empty($_POST["num1"]) && !empty($_POST["num2"])) {
@@ -49,3 +53,5 @@
         }
     }
     ?>
+  </div>
+</div>

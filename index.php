@@ -37,7 +37,7 @@ include('includes/header.php');
 <?php include('simple_calculator.php');
 ?>
 </section>
-
+<br>
 </div>
 </div>
 <?php

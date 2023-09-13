@@ -1,4 +1,8 @@
-    <h1>Grade Calculator</h1>
+<div class="card">
+  <div class="card-header">
+  <h2> <?php echo "Grade Calculator"; ?> </h2> 
+  </div>
+  <div class="card-body">
     <form method="post">
         <label for="score1">Test Score 1:</label>
         <input type="number" name="score1" required><br>
@@ -46,3 +50,7 @@
             echo "<p>You didn't enter any value</p>";
         }
     }
+?>
+
+</div>
+</div>
