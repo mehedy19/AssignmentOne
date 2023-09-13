@@ -18,15 +18,17 @@
 <div class="card-footer">
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $temperature = $_POST["temperature"];
-        $conversion = $_POST["conversion"];
-        $result = 0;
+        $temperature = isset($_POST["temperature"]) ? $_POST["temperature"] : "";
+        $conversion = isset($_POST["conversion"]) ? $_POST["conversion"] : "";
+        $result = "";
 
         if ($conversion == "celsius_to_fahrenheit") {
-            $result = ($temperature * 9/5) + 32 ."&deg; Fahrenheit";
+            $result = ($temperature * 9/5) + 32 . "&deg; Fahrenheit";
         } elseif ($conversion == "fahrenheit_to_celsius") {
-            $result = ($temperature - 32) * 5/9 ."&deg; Celsius";
-        } 
+            $result = ($temperature - 32) * 5/9 . "&deg; Celsius";
+        } else{
+            $result = "You didn't enter any value";
+        }
         
         echo "<p ><strong>The Temperature is: </strong> $result </p> ";
         
