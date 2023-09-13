@@ -5,12 +5,12 @@
   <div class="card-body">
     <form method="post">
         <label for="score1">Test Score 1:</label>
-        <input type="number" name="score1" required><br>
+        <input class="form-control" type="number" name="score1" required><br>
         <label for="score2">Test Score 2:</label>
-        <input type="number" name="score2" required><br>
+        <input class="form-control" type="number" name="score2" required><br>
         <label for="score3">Test Score 3:</label>
-        <input type="number" name="score3" required><br>
-        <input type="submit" value="Calculate Grade">
+        <input class="form-control" type="number" name="score3" required><br>
+        <input class="btn btn-outline-success" type="submit" value="Calculate Grade">
     </form>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {

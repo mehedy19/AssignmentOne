@@ -1,0 +1,25 @@
+
+.card-header {
+	background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* =========Footer Start========= */
+footer {
+	background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+/* =========Footer End========= */
+
+/* ===========Responsive css============= */
+
+@media only screen and (max-width: 767px) {
+
+
+
+    
+  }

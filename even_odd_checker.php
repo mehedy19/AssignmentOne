@@ -5,9 +5,11 @@
   </div>
   <div class="card-body">
   <form method="post">
+    <div class="form-group">
         <label for="number">Enter a number:</label>
-        <input type="number" name="number" required>
-        <input type="submit" value="Check">
+        <input class="form-control" type="number" name="number" required>
+        </div>
+        <input class="btn btn-outline-success" type="submit" value="Check">
     </form>
     <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

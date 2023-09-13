@@ -5,17 +5,17 @@
   <div class="card-body">
     <form method="post">
         <label for="num1">Enter the first number:</label>
-        <input type="number" name="num1" required><br>
+        <input class="form-control" type="number" name="num1" required><br>
         <label for="operation">Select operation:</label>
-        <select name="operation">
+        <select class="form-control" name="operation">
             <option value="addition">Addition</option>
             <option value="subtraction">Subtraction</option>
             <option value="multiplication">Multiplication</option>
             <option value="division">Division</option>
         </select><br>
         <label for="num2">Enter the second number:</label>
-        <input type="number" name="num2" required><br>
-        <input type="submit" value="Calculate">
+        <input class="form-control" type="number" name="num2" required><br>
+        <input class="btn btn-outline-success" type="submit" value="Calculate">
     </form>
 
     <?php

@@ -7,10 +7,10 @@
     
     <form method="post">
         <label for="num1">Enter the first number:</label>
-        <input type="number" name="num1" required><br>
+        <input class="form-control" type="number" name="num1" required><br>
         <label for="num2">Enter the second number:</label>
-        <input type="number" name="num2" required><br>
-        <input type="submit" value="Compare">
+        <input class="form-control" type="number" name="num2" required><br>
+        <input class="btn btn-outline-success" type="submit" value="Compare">
     </form>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
