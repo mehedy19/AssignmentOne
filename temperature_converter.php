@@ -5,11 +5,15 @@
   </div>
   <div class="card-body">
     <form method="post">
+        <div class="form-group">
         <input class="form-control" type="number" name="temperature" placeholder="Enter temperature" required>
+        <br>
         <select class="form-control" name="conversion">
             <option value="celsius_to_fahrenheit">Celsius to Fahrenheit</option>
             <option value="fahrenheit_to_celsius">Fahrenheit to Celsius</option>
         </select>
+        </div>
+        <br>
         <input  class="btn btn-outline-success" type="submit" value="Convert">
 
     </form>

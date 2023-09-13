@@ -9,6 +9,7 @@
         <label for="number">Enter a number:</label>
         <input class="form-control" type="number" name="number" required>
         </div>
+        <br>
         <input class="btn btn-outline-success" type="submit" value="Check">
     </form>
     <?php

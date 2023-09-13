@@ -8,10 +8,10 @@
         <input class="form-control" type="number" name="num1" required><br>
         <label for="operation">Select operation:</label>
         <select class="form-control" name="operation">
-            <option value="addition">Addition</option>
-            <option value="subtraction">Subtraction</option>
-            <option value="multiplication">Multiplication</option>
-            <option value="division">Division</option>
+            <option value="addition">Addition(+)</option>
+            <option value="subtraction">Subtraction(-)</option>
+            <option value="multiplication">Multiplication(*)</option>
+            <option value="division">Division(/)</option>
         </select><br>
         <label for="num2">Enter the second number:</label>
         <input class="form-control" type="number" name="num2" required><br>
