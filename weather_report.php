@@ -7,7 +7,7 @@
 
 
 <?php
-    $temperature = 25; 
+    $temperature = 29; 
 
     echo "<p>Today's Temperature: $temperature&deg;C</p>";
 
@@ -16,7 +16,7 @@
     } elseif ($temperature <= 20) {
         echo "<p>It's cool.</p>";
     } elseif(($temperature <= 28)) {
-        echo "<p>It's So nice wearther.</p>";
+        echo "<p>It's so nice weather</p>";
     }else{
         echo "<p>It's warm.</p>"; 
     }
